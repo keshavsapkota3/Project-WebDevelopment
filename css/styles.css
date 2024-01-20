@@ -3,14 +3,55 @@
     padding: 0;
 }
 /* start giving styles for nav  */
- 
+ #nav{
+    height: 100px;
+    margin: 0;
+    padding-left: 15px;
+    padding-left: 15px;
+    background:#454545;
+    color: white;
+ }
+    
 
-/* style for the name of the company as a logo */
-.logo {
+    /* name or the logo of the company */
+    .logo {
         font-family: "Ingrid Darling", cursive;
         font-weight: 400;
         font-style: normal;
-      }
+        font-size: 30px;
+        color: #B2B6DF;
+    }
+
+      /* end of the name of company  */
+
+
+     /* humburger menu */
+       #menu-hum{
+        height: 35px;
+        width: 40px;
+        background: black;
+        border-radius: 5px;
+    }
+    .hmenu-line{
+        height: 2px;
+        width: 30px;
+        background: white;
+        margin-top: 7px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    /* humburger menu end */
+
+    /* style for the search and its icon  */
+     #search-icon{
+        background-color: azure;
+        width: 40px;
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-top: 5px;
+     }
       
 
 
@@ -31,7 +72,7 @@
 
 /* start a footer  */
 
-here is the some code you can execute haha
+
 
 
 /* end of the footer */
