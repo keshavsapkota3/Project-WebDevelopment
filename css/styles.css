@@ -86,7 +86,38 @@
 
 
 /* Start the body style */
+/* Your CSS code here */
+.image-container {
+   text-align: center; /* Center the image within the container */
+}
 
+.watches-image {
+   width: 200px; /* Set the desired width */
+   height: auto; /* Maintain aspect ratio by setting height to auto */
+   border: 1px solid #ccc; /* Example border styling */
+   border-radius: 5px; /* Example border-radius for rounded corners */
+   box-shadow: 2px 2px 5px #888; /* Example box shadow for a subtle lift effect */
+}
+
+.image-container {
+   text-align: center; /* Center the image within the container */
+}
+
+.Headphones-image {
+   width: 200px; /* Set the desired width */
+   height: auto; /* Maintain aspect ratio by setting height to auto */
+   border: 1px solid #ccc; /* Example border styling */
+   border-radius: 5px; /* Example border-radius for rounded corners */
+   box-shadow: 2px 2px 5px #888; /* Example box shadow for a subtle lift effect */
+}
+
+.Ipad-image {
+   width: 200px; /* Set the desired width */
+   height: auto; /* Maintain aspect ratio by setting height to auto */
+   border: 1px solid #ccc; /* Example border styling */
+   border-radius: 5px; /* Example border-radius for rounded corners */
+   box-shadow: 2px 2px 5px #888; /* Example box shadow for a subtle lift effect */
+}
 
 
 
@@ -95,6 +126,7 @@
 
 
 /* start a footer  */
+
 
 
 
