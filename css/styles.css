@@ -4,10 +4,10 @@
 }
 /* start giving styles for nav  */
  #nav{
-    height: 100px;
+    height: 70px;
     margin: 0;
     padding-left: 15px;
-    padding-left: 15px;
+    padding-top: 15px;
     background:#454545;
     color: white;
  }
@@ -18,33 +18,42 @@
         font-family: "Ingrid Darling", cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: 30px;
+        font-size: 40px;
         color: #B2B6DF;
-    }
+        margin-top: -15px;
+     }
 
       /* end of the name of company  */
 
 
      /* humburger menu */
-       #menu-hum{
+       .menu-hum{
         height: 35px;
         width: 40px;
         background: black;
         border-radius: 5px;
-    }
+        border: 5px white;
+     }
+      .menu-hum:hover{
+         height:37px;
+         width: 43px;
+       }
+        
     .hmenu-line{
         height: 2px;
         width: 30px;
-        background: white;
+        background: white !important;
         margin-top: 7px;
         margin-left: auto;
         margin-right: auto;
         
-    }
+     }
+     
 
-    /* humburger menu end */
+      /* humburger menu end */
 
-    /* style for the search and its icon  */
+
+     /* style for the search and its icon  */
      #search-icon{
         background-color: azure;
         width: 40px;
@@ -53,8 +62,23 @@
         padding-top: 5px;
      }
       
+     /* end of the search and its icon */
 
 
+
+     /* start style of the navbar menu and it's icon  */
+     .navbar-menu-icon{
+        height: 20px;
+        margin-left: 3px;
+        margin-top: 5px;
+    
+
+     }
+
+     .navbar-menu:hover{
+        color: rgb(200, 200, 200);
+    
+     }
 
 
 /* End of the style for the navigation */
