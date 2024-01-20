@@ -4,12 +4,13 @@
 }
 /* start giving styles for nav  */
  #nav{
-    height: 70px;
+    height: auto;
     margin: 0;
     padding-left: 15px;
     padding-top: 15px;
     background:#454545;
     color: white;
+    padding-bottom: 15px;
  }
     
 
@@ -39,7 +40,7 @@
          width:43px;
        }
         
-    .hmenu-line{
+      .hmenu-line{
         height: 2px;
         width: 30px;
         background: white !important;
@@ -60,6 +61,7 @@
         border-radius: 5px;
         padding-left: 5px;
         padding-top: 5px;
+        margin-left: -15px;
      }
       
      /* end of the search and its icon */
@@ -68,8 +70,8 @@
 
      /* start style of the navbar menu and it's icon  */
      .navbar-menu-icon{
-        height: 20px;
-        margin-left: 3px;
+        height: 25px;
+        margin: auto;
         margin-top: 5px;
     
 
