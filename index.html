@@ -28,7 +28,7 @@
       .container {
         width: 90%;
         margin: auto;
-      }
+        border: 1px solid red;}
       .header {
         display: flex;
         justify-content: space-between;
@@ -46,7 +46,7 @@
       .flash {
           width: 372px;
           height: 580px;
-          border: 1px solid red;
+   
       }
       .saveprice{
         width: 171px;
@@ -59,6 +59,17 @@
   font-size: 30px;
   font-family:'Times New Roman', Times, serif;
       }
+      .mainproduct{
+
+        width: 400px; height: 625px; border: 1px solid red;
+      }
+      .mainproduct img{
+        width: 361px; height:229px; 
+      }
+      .mainproducttitle{
+
+font-weight: bold;font-size: 20px;letter-spacing: 0px;
+}
       /* Add more styles as needed */
     </style>
 </head>
@@ -133,26 +144,25 @@
 <!-- body code start -->
 
 
-
+<div class="rectangle" >
+ 
+</div>
 
 
         <!-- forth line of the body start  -->
          <div class="row justify-content-evenly d-flex ">
           <div class="watch-container col-4">
-            <img class="watches-image " src="img/Smart-watches.png" alt="Smart-watches image">
-          <div class="Headphones-container col-4">
+            <img class="watches-image " src="img/Smart-watches.png" alt="Smart-watches image">         <div class="Headphones-container col-4">
               <img class="Headphones-image" src="img/Headphones.png" alt="Headphones image">
           <div class="Ipad-container col-4">
             <img class="Ipad-image" src="img/Ipad.png" alt="Ipad image">
           </div>
-         </div>
+         </div>  </div>
 
 
-
+        
 <div class="container">
-  <div class="rectangle" >
  
-  </div>
   <div class="header">
     <h1>Flash Sales</h1>
     <h1>Most Popular Products</h1>
@@ -183,6 +193,19 @@
 </div>
 <div style="width:100%;margin:auto;margin-top:40px;text-align: center;font-size: 50px;">Did you notice this products</div>
 <img src="./img/ale.png" style="width: 100%;margin-top: 40px;">
+
+<div style="display: flex;width:70%;margin:auto;margin-top:30px;">
+  <div class="mainproduct">
+    <img src="./img/computer.png">
+    <div class="mainproducttitle">Very light and compact laptop with a 12-month Microsoft 365 Personal license</div>
+  </div>
+  <div  class="mainproduct" style="margin-left: 70px;">
+    <img src="./img/tv.png">
+  </div>
+  <div   class="mainproduct"style="margin-left: 70px;">
+    <img src="./img/jbl.png">
+  </div>
+</div>
 
 <!-- end of the body -->
 
