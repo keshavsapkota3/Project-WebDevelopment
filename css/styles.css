@@ -321,9 +321,40 @@
 
 
 /* start a footer  */
+   footer {
+    background-color: #0f0d0d;
+    color: white;
+   }
 
+   #footer-img >img{
+   height: 30px;
+   float: right;
+   }
+   #footer-text{
+    float: right;
+    font-size: 20px;
+    margin-top: ;
+   }
+   #footer-first-row > hr{
+   height: 0px;
+   }
 
+   #footer-heading{
+   font-size: 24px;
+   margin-top: 10px;
+   margin-left: 20%;
+   margin-bottom: -13px;
+   }
 
-
+   #hr{
+    height:1px;
+    background-color: white;
+    opacity: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   #footer-row{
+    margin-top: -10px;
+   }
 
 /* end of the footer */
