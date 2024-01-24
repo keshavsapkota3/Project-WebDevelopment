@@ -356,5 +356,17 @@
    #footer-row{
     margin-top: -10px;
    }
-
+   #company-copyright{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+   
+   }
+   #notice-products{
+    margin-top: 20px;
+    margin-bottom: 10px;
+   }
+   #ale{
+    margin-bottom: 20px;
+   }
 /* end of the footer */
