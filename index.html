@@ -10,10 +10,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap" rel="stylesheet">
+    <style>
+      /* Add your CSS styles here */
+      .rectangle{
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        background-image: url(./img/Rectangle.png); 
+      
+      }
+      h1{
+        font-size: 20px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 90%;
+        margin: auto;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+      }
+      .product {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .flash img {
+        width: 60%;
+      }
+      .flash {
+          width: 372px;
+          height: 580px;
+          border: 1px solid red;
+      }
+      .saveprice{
+        width: 171px;
+        height: 42px;
+        background-color: #fdf301;
+        border-radius: 20px;
+        display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+      }
+      /* Add more styles as needed */
+    </style>
 </head>
 <body>
 
- <!-- The navigation start  -->
+ <!-- The navigation start from  -->
   <nav class="row align-content-center" id="nav">
 
     <!-- logo and the humburger menu -->
@@ -36,7 +87,7 @@
       
     <!-- logo and the humburger menu end  -->
 
-    <!-- search box start  -->
+    <!-- search box start from here  -->
 
     <div class="col-lg-3 col-10 col-sm-6 ">
          <div class="serach d-flex">
@@ -80,202 +131,59 @@
 
 
 <!-- body code start -->
-  <div id="widerscreen-space">
 
-   <!-- landing page first row start  -->
-     <div class="row text-center img-reponsive " id="landing-page-bg-img">
-       <div ><img src="img/discount.png" class="img-fluid col-2  " id="discount-img" alt="discount image " ></div>
-       <div class="col-10 text-center" id="h1forimg" ><h1 > Great offer in Stores and online !</h1></div>
-       <div id="hello"><button ><h6>See our offers</h6></button></div>
-     </div>
-    <!-- landing page first row end  -->
 
-    <!-- second row of the body start  -->
-      <div class="row second-row">
 
-        <!-- first coloum flash sales -->
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4  text-center">
-          <h1 id="heading-of-second-row">Flash Sales</h1>
-          <hr>
-          <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-          <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-           <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-           <div id="prices">
-            <p >save 50E</p>
-           </div>
-          <div>
-            <p id="pricess">1500E</p>
+
+
+        <!-- forth line of the body start  -->
+         <div class="row justify-content-evenly d-flex ">
+          <div class="watch-container col-4">
+            <img class="watches-image " src="img/Smart-watches.png" alt="Smart-watches image">
+          <div class="Headphones-container col-4">
+              <img class="Headphones-image" src="img/Headphones.png" alt="Headphones image">
+          <div class="Ipad-container col-4">
+            <img class="Ipad-image" src="img/Ipad.png" alt="Ipad image">
           </div>
-           
-
-          </div>
-        <!-- first column flash sales end  -->
-
-            <!-- second  column of the row start from here  -->
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center second-body-second-column">
-           <h1 id="heading-of-second-row">Most popular products</h1>
-           <hr>
-          <div class="row">
-            <p class="col-6">Telephones </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-          </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Computers </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Washing Macchine </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Smart Watch </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Vaccumm Cleaner</p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Digital Camera</p>
-            <p class="col-3"></p>
-            <p class="col-3 click"><a href="img/iphone.jpeg">></a><p>
-            </div>
-           <hr>
-        </div>
-        <!-- end of the second column of secornd row  -->
-
-        <!-- start the third column of  second row  -->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center">
-           <h1 id="heading-of-second-row">Selection From The Products</h1>
-           <hr>
-           <!-- headphone and its description  -->
-
-           <div class="row">
-                <div id="ovalshape-image" class="col-4 "><img src="img/studioproheadphone.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-                <div id="item-description"  class="col-8"> 
-                  <p> <h3 >Head Phone version 3.5</h3> </p>
-                  <div  class="row">
-                    <p class="col-4"></p>
-                    <p class="col-4" id="price">105</p>
-                    <p class="col-4"></p>
-                  </div>
-                </div>
-           </div>
-             
-           <!-- washing machine code  -->
-           <div class="row">
-             <div id="ovalshape-image" class="col-4 "><img src="img/studioproheadphone.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-             <div id="item-description"  class="col-8"> 
-               <p> <h3 >Head Phone version 3.5</h3> </p>
-               <div  class="row">
-                <p class="col-4"></p>
-                <p class="col-4" id="price">105</p>
-                <p class="col-4"></p>
-               </div>
-             </div>
-           </div>
-
-           <!-- Samsung galaxy  -->
-           <div class="row">
-            <div id="ovalshape-image" class="col-4 "><img src="img/studioproheadphone.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-            <div id="item-description"  class="col-8"> 
-              <p> <h3 >Head Phone version 3.5</h3> </p>
-              <div  class="row">
-               <p class="col-4"></p>
-               <p class="col-4" id="price">105</p>
-               <p class="col-4"></p>
-              </div>
-            </div>
-          </div>
-
-          <!-- macbook pro  -->
-          <div class="row">
-            <div id="ovalshape-image" class="col-4 "><img src="img/studioproheadphone.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-            <div id="item-description"  class="col-8"> 
-              <p> <h3 >Head Phone version 3.5</h3> </p>
-              <div  class="row">
-               <p class="col-4"></p>
-               <p class="col-4" id="price">105</p>
-               <p class="col-4"></p>
-              </div>
-            </div>
-          </div>
-
-        <!-- third  end of third column of the second  row -->
-      
-      </div>
-    <!-- seond row of the body end  -->
-    <hr>
+         </div>
 
 
-    <!-- third row of the body start where is picture of phone will appear  -->
-    <div class="row">
-       <div class="col-lg-6 col-12 img-fluid" id="third-row-img"><img src="img/iphone2.png" alt="this is the picture of the iagepnone on landing p"></div>
-       <div class="col-lg-6 d-none d-sm-none d-md-none d-lg-flex img-fluid"><img src="img/iphone3.png" alt="this is the picture of the iagepnone on landing p"></div>
-    </div>
-    <!-- this is the end of the third row  -->
 
-    <!-- forth row start from here  -->
-    
-    <!-- forth row first column  -->
-   
-    <div class="row justify-content-center align-items-center " id="moving-center">
-       <!-- items1 -->
-      <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-       <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-          <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-           <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-           <div id="tprices">
-            <p >save 50E</p>
-           </div>
-          <div>
-            <p id="tpricess">1500E</p>
-          </div>
-      </div>
-      <!-- end first items  -->
-
-      <!-- items 2 -->
-       <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-         <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-           <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-            <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-            <div id="tprices">
-             <p >save 50E</p>
-            </div>
-           <div>
-             <p id="tpricess">1500E</p>
-           </div>
-       </div>
-      <!-- items2 end  -->
-
-      <!-- items3 start  -->
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-         <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-           <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-            <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-            <div id="tprices">
-             <p >save 50E</p>
-            </div>
-           <div>
-             <p id="tpricess">1500E</p>
-           </div>
-       </div>
-
-       <!-- items3 end -->
-    </div>
-    
-    <!-- forth row end here  -->
+<div class="container">
+  <div class="rectangle" >
+ 
   </div>
+  <div class="header">
+    <h1>Flash Sales</h1>
+    <h1>Most Popular Products</h1>
+    <h1>Selection from the Products</h1>
+  </div>
+
+ 
+    <!-- Product 1 -->
+    <div class="flash">
+      <img src="./img/iphone.jpeg" >
+      <h2>IPhone 15 ProMax  Dual SIM 256 BG
+        15MegaPixel Rear Camera</h2>
+      <p>.Front camera 15Pixel<br>
+        .Back Camera 48 Pixel</p>
+      <div class="saveprice">save 50
+        </div>
+        <div class="price">350
+        </div>
+    </div>
+    
+    <!-- Repeat for each product -->
+    
+
+</div>
+<div style="width:80%;margin:auto;margin-top:40px">
+  <img src="./img/iphone2.png" style="width:45%;height:100%;" >
+  <img src="./img/iphone2.png" style="width:45%;height:100%;float: right;" >
+</div>
+<div style="width:100%;margin:auto;margin-top:40px;text-align: center;font-size: 50px;">Did you notice this products</div>
+<img src="./img/ale.png" style="width: 100%;margin-top: 40px;">
+
 <!-- end of the body -->
 
 <!-- footer codding start -->
@@ -288,6 +196,12 @@
       <div class="d-flex">
         <img src="img/Internet.png" alt="this is a website icon">
         <a href="">www.electrohub.fi</a>
+        
+        
+      
+      
+
+
     </div>
       </div>
     </div>
