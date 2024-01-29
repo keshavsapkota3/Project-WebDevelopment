@@ -334,12 +334,12 @@
    #footer-text{
     float: right;
     font-size: 20px;
-    margin-top: ;
+    
    }
    #footer-first-row > hr{
    height: 0px;
    }
-
+ 
    #footer-heading{
    font-size: 24px;
    margin-top: 10px;
@@ -371,3 +371,5 @@
     margin-bottom: 20px;
    }
 /* end of the footer */
+
+
